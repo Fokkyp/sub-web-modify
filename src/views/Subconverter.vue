@@ -358,6 +358,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "自用规则",
+            options: [
+              {
+                label: "自用规则",
+                value: "https://raw.githubusercontent.com/Fokkyp/myproxy/main/rules/Proxy_rules_full.ini"
+              }
+            ]
+          },
+          {
             label: "CM规则",
             options: [
               {
@@ -1315,5 +1324,6 @@ export default {
   }
 };
 </script>
+
 
 
